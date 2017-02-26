@@ -21,12 +21,12 @@ ar rvs lib_file.a gengift.o matching.o pairing.o couple.o giftalloc.o boys.o gen
 ##Steps
 Steps: Generate random input
 >```	 
-Run g++ genboys.cpp
-Run ./a.out
-Run g++ gengirls.cpp
-Run ./a.out
-Run g++ gengift.cpp
-Run ./a.out
+g++ genboys.cpp
+./a.out
+g++ gengirls.cpp
+./a.out
+g++ gengift.cpp
+./a.out
 ```
 ###To run q1 execute the following command:
 ```
