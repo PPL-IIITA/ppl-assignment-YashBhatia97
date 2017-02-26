@@ -13,7 +13,7 @@ girls girls::calgfhap(girls gf,int gifting[]){
 		gf.happiness = gifting[0] + gifting[2] + gifting[3] + gifting[5] + gifting[6] + gifting[8];
 	}
 	else {
-		double temp = exp ((gifting[0] + gifting[3] + gifting[6])%20);
+		double temp = log (2) * ((gifting[0] + gifting[3] + gifting[6]));
 		gf.happiness = temp;
 	}
 	return gf;

@@ -18,6 +18,7 @@ int main(){
 		coup[i] = ccc.calchap (coup[i], gifting[i]);
 		coup[i] = ccc.calcomp (coup[i]);
 	}
+	freopen ("q2output.txt", "a", stdout);
 	for (i = 1; i <=n; i++){
 		cout << "BOY: " << coup[i].b1.name << " Girl: " << coup[i].g1.name << " Essential Gift: " << gifting[i][1] << " Luxury Gift: " << gifting[i][4] << " Utility Gift:" << gifting[i][7] << endl;
 	}
@@ -30,5 +31,6 @@ int main(){
 	for (i = 1; i <=k; i++){
 		cout << "BOY: " << coup[i].b1.name << " Girl: " << coup[i].g1.name << " compatibility: " << coup[i].compatibility << endl;
 	}
+	fclose (stdout);
 	return 0;
 }

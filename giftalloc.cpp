@@ -4,6 +4,7 @@
 #include "gifts.hpp"
 #include "couple.hpp"
 #include "giftalloc.hpp"
+#include <ctime>
 using namespace std;
 int giftalloc::allocating (int gifting[][9],couple coup[], gifts gft[]){
 	int i, j;
@@ -31,6 +32,7 @@ int giftalloc::allocating (int gifting[][9],couple coup[], gifts gft[]){
 		}
 	}
 	 	//cout << "hello" << endl;
+	freopen ("q2output.txt","w",stdout);
 	for(i = 1; i <= n; i++){
 		int sum = 0;
 		if(coup[i].b1.type == 0){
@@ -41,7 +43,9 @@ int giftalloc::allocating (int gifting[][9],couple coup[], gifts gft[]){
 					gifting[i][3*gft[j].type+1] += 1;
 					gifting[i][3*gft[j].type+2] += gft[j].value;
 					sum += gft[j].price;
-					cout << "Boy: " << coup[i].b1.name << " gave Gift:" << gft[j].name << " price: " << gft[j].price << " value: " << gft[j].value <<  " to Girl: " << coup[i].g1.name << endl;
+					time_t now = time(0);
+					char* cg = ctime (&now);
+					cout << "Boy: " << coup[i].b1.name << " gave Gift:" << gft[j].name << " price: " << gft[j].price << " value: " << gft[j].value <<  " to Girl: " << coup[i].g1.name << " at time: " << cg << endl;
 				}else {
 					if(sum < coup[i].g1.man_budget){
 						sum += gft[j].price;
@@ -49,7 +53,9 @@ int giftalloc::allocating (int gifting[][9],couple coup[], gifts gft[]){
 						gifting[i][3*gft[j].type] += gft[j].price;
 						gifting[i][3*gft[j].type+1] += 1;
 						gifting[i][3*gft[j].type+2] += gft[j].value;
-						cout << "Boy: " << coup[i].b1.name << " gave Gift:" << gft[j].name << " price: " << gft[j].price << " value: " << gft[j].value <<  " to Girl: " << coup[i].g1.name << endl;
+						time_t now = time(0);
+						char* cg = ctime (&now);
+						cout << "Boy: " << coup[i].b1.name << " gave Gift:" << gft[j].name << " price: " << gft[j].price << " value: " << gft[j].value <<  " to Girl: " << coup[i].g1.name << " at time: " << cg << endl;
 					}
 					break;
 				}
@@ -62,7 +68,9 @@ int giftalloc::allocating (int gifting[][9],couple coup[], gifts gft[]){
 					gifting[i][3*gft[j].type+1] += 1;
 					gifting[i][3*gft[j].type+2] += gft[j].value;
 					sum += gft[j].price;
-					cout << "Boy: " << coup[i].b1.name << " gave Gift:" << gft[j].name << " price: " << gft[j].price << " value: " << gft[j].value <<  " to Girl: " << coup[i].g1.name << endl;
+					time_t now = time(0);
+					char* cg = ctime (&now);
+					cout << "Boy: " << coup[i].b1.name << " gave Gift:" << gft[j].name << " price: " << gft[j].price << " value: " << gft[j].value <<  " to Girl: " << coup[i].g1.name << " at time: " << cg << endl;
 				}
 			}
 		}
@@ -74,7 +82,9 @@ int giftalloc::allocating (int gifting[][9],couple coup[], gifts gft[]){
 					gifting[i][3*gft[j].type+1] += 1;
 					gifting[i][3*gft[j].type+2] += gft[j].value;
 					sum += gft[j].price;
-					cout << "Boy: " << coup[i].b1.name << " gave Gift:" << gft[j].name << " price: " << gft[j].price << " value: " << gft[j].value <<  " to Girl: " << coup[i].g1.name << endl;
+					time_t now = time(0);
+					char* cg = ctime (&now);
+					cout << "Boy: " << coup[i].b1.name << " gave Gift:" << gft[j].name << " price: " << gft[j].price << " value: " << gft[j].value <<  " to Girl: " << coup[i].g1.name << " at time: " << cg << endl;
 				}else {
 					if(sum < coup[i].g1.man_budget){
 						sum += gft[j].price;
@@ -82,7 +92,9 @@ int giftalloc::allocating (int gifting[][9],couple coup[], gifts gft[]){
 						gifting[i][3*gft[j].type] += gft[j].price;
 						gifting[i][3*gft[j].type+1] += 1;
 						gifting[i][3*gft[j].type+2] += gft[j].value;
-						cout << "Boy: " << coup[i].b1.name << " gave Gift:" << gft[j].name << " price: " << gft[j].price << " value: " << gft[j].value <<  " to Girl: " << coup[i].g1.name << endl;
+						time_t now = time(0);
+						char* cg = ctime (&now);
+						cout << "Boy: " << coup[i].b1.name << " gave Gift:" << gft[j].name << " price: " << gft[j].price << " value: " << gft[j].value <<  " to Girl: " << coup[i].g1.name << " at time: " << cg << endl;
 					}
 					break;
 				}
@@ -97,7 +109,9 @@ int giftalloc::allocating (int gifting[][9],couple coup[], gifts gft[]){
 							gifting[i][3] += gft[j].price;
 							gifting[i][3*gft[j].type+1] += 1;
 							gifting[i][3*gft[j].type+2] += gft[j].value;
-							cout << "Boy: " << coup[i].b1.name << " gave Gift:" << gft[j].name << " price: " << gft[j].price << " value: " << gft[j].value <<  " to Girl: " << coup[i].g1.name << endl;
+							time_t now = time(0);
+							char* cg = ctime (&now);
+							cout << "Boy: " << coup[i].b1.name << " gave Gift:" << gft[j].name << " price: " << gft[j].price << " value: " << gft[j].value <<  " to Girl: " << coup[i].g1.name << " at time: " << cg << endl;
 							break;
 						}
 					}
@@ -105,5 +119,6 @@ int giftalloc::allocating (int gifting[][9],couple coup[], gifts gft[]){
 			}
 		}
 	}
+	fclose (stdout);
 	return n;
 }
