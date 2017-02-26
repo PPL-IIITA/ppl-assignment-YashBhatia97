@@ -1,0 +1,9 @@
+4
+BOY: toispk 8 6 9048 0 1 1
+GIRL: cqdxx 5 1 8893 2 0 1
+BOY: rzecwy 10 4 9202 3 1 1
+GIRL: wizyi 3 4 4565 1 2 1
+BOY: qymprr 4 6 9527 4 2 1
+GIRL: qxonl 10 4 4385 1 0 1
+BOY: pnjdxu 9 4 4475 1 2 1
+GIRL: rslip 2 5 2601 0 0 1
