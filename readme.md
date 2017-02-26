@@ -30,12 +30,12 @@ g++ gengift.cpp
 ```
 ###To run q1 execute the following command:
 ```
->g++ q1.cpp lib_fila.a
+>g++ q1.cpp lib_file.a
 >./a.out
 ```
 ###To run q2 execute the following command:
 ```
->g++ q2.cpp ppl_lib
+>g++ q2.cpp lab_file.a
 >./a.out
 ```
 ###To View Couples:
