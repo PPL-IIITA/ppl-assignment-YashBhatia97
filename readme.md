@@ -61,3 +61,9 @@ g++ gengirls.cpp
 ## Documenation of the project can be found in -
 
 >doc/html/index.html
+## System Information
+```
+>Operating System - Ubuntu 16.04
+>Documentaion - Doxygen
+>Class Diagram - VisualParadigm
+```
