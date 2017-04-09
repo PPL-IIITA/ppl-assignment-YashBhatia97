@@ -2,46 +2,57 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "gifts.hpp"
+#include "essentialgift.hpp"
+#include "luxurygift.hpp"
+#include "utilitygift.hpp"
+#include "gengift.hpp"
 using namespace std;
 
-int main(){
+int gengift::giftcreate(gifts gft[]){
 	srand (time(NULL));
 	int n1, n2, n3;
 	n1 = (rand () % 15) + 15;
 	n2 = (rand () % 10) + 5;
 	n3 = (rand () % 15) + 5;
 	int i, j;
-	gifts gft[10000];
+	//gifts gft[10000];
 	freopen ("gifts.txt", "w", stdout);
 	for (i = 1; i <= n1; i++){
-		gft[i].name = i;
-		gft[i].price = (rand() % 1701) + 300;
-		gft[i].value = (rand() % 8) + 2;
-		gft[i].type = 0;
-		gft[i].luxrating = -1;
-		gft[i].luxdifficulty = -1;
-		gft[i].utilityvalue = -1;
-		gft[i].utilityclass = -1;
+		gifts *temp;
+
+		int tname = i;
+		int tprice = (rand() % 1701) + 300;
+		int tvalue = (rand() % 8) + 2;
+		int ttype = 0;
+		
+		temp = new essentialgift (tname, tprice, tvalue);
+		gft[i] = *temp;
 	}
 	for (i = n1+1; i <= n1+n2; i++){
-		gft[i].name = i;
-		gft[i].price = (rand() % 8000) + 2000;
-		gft[i].value = (rand() % 6) + 5;
-		gft[i].type = 1;
-		gft[i].luxrating = (rand() % 8) + 2;
-		gft[i].luxdifficulty = (rand() % 6)+2;
-		gft[i].utilityvalue = -1;
-		gft[i].utilityclass = -1;	
+		gifts *temp;
+
+		int tname = i;
+		int tprice = (rand() % 8000) + 2000;
+		int tvalue = (rand() % 6) + 5;
+		int ttype = 1;
+		int tluxrating = (rand() % 8) + 2;
+		int tluxdifficulty = (rand() % 6)+2;
+
+		temp = new luxurygift (tname, tprice, tvalue, tluxrating, tluxdifficulty);
+		gft[i] = *temp;
 	}
 	for (i = n1+n2+1; i <= n1+n2+n3; i++){
-		gft[i].name = i;
-		gft[i].price = (rand() % 4000) + 1000;
-		gft[i].value = (rand() % 7) + 3;
-		gft[i].type = 2;
-		gft[i].luxrating = -1;
-		gft[i].luxdifficulty = -1;
-		gft[i].utilityvalue = (rand() % 7) + 2;
-		gft[i].utilityclass = (rand()% 5) + 1;
+		gifts *temp;
+
+		int tname = i;
+		int tprice = (rand() % 4000) + 1000;
+		int tvalue = (rand() % 7) + 3;
+		int ttype = 2;
+		int tutilityvalue = (rand() % 7) + 2;
+		int tutilityclass = (rand()% 5) + 1;
+
+		temp = new utilitygift (tname, tprice, tvalue, tutilityvalue, tutilityclass);
+		gft[i] = *temp;
 	}
 	int n = n1 + n2 + n3;
 	cout << n << endl;
@@ -55,8 +66,19 @@ int main(){
 		}
 	}
 	for (i = 1; i <= n; i++){
-		cout << gft[i].name << " " << gft[i].price << " " << gft[i].value << " " << gft[i].type << " " << gft[i].luxrating << " " << gft[i].luxdifficulty << " " << gft[i].utilityvalue << " " << gft[i].utilityclass << endl;
+		if (gft[i].type == 0){
+			cout << gft[i].name << " " << gft[i].price << " " << gft[i].value << " " << gft[i].type << endl;
+			//cout << gft[i].name << " " << gft[i].price << " " << gft[i].value << " " << gft[i].type << " " << -1 << " " << -1 << " " << -1 << " " << -1 << endl;
+		}
+		else if (gft[i].type == 1){
+			cout << gft[i].name << " " << gft[i].price << " " << gft[i].value << " " << gft[i].type << endl;
+			//cout << gft[i].name << " " << gft[i].price << " " << gft[i].value << " " << gft[i].type << " " << gft[i].luxrating << " " << gft[i].luxdifficulty << " " << -1 << " " << -1 << endl;
+		}
+		else {
+			cout << gft[i].name << " " << gft[i].price << " " << gft[i].value << " " << gft[i].type << endl;
+			//cout << gft[i].name << " " << gft[i].price << " " << gft[i].value << " " << gft[i].type << " " << -1 << " " << -1 << " " << gft[i].utilityvalue << " " << gft[i].utilityclass << endl;
+		}
 	}
 	fclose(stdout);
-	return 0;
+	return n;
 }

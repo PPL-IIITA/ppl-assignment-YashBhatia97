@@ -1,6 +1,7 @@
 #ifndef GIRLS_HPP
 #define GIRLS_HPP
 using namespace std;
+#include <string.h>
 class girls/*! \brief Class girls.
  *        
  *

@@ -9,19 +9,43 @@ void pairing::allocarray (boys guy[], girls gals[], int *bb, int *gg){
 	FILE *fp1, *fp2;
 	fp1 = fopen ("gnboys.txt", "r");
 	fp2 = fopen ("gngirls.txt", "r");
+	char tname[10];
+	int tattr, tintel, tbud, tcrit, ttype; 
 	int i, j;
 	for (i = 0; !feof (fp1);i++){
-		fscanf(fp1,"%s %d %d %d %d %d %d", guy[i].name, &guy[i].attractiveness, &guy[i].intelligence, &guy[i].budget, &guy[i].criteria, &guy[i].type, &guy[i].committed);
+		fscanf(fp1,"%s %d %d %d %d %d", tname, &tattr, &tintel, &tbud, &tcrit, &ttype);
+		boys *temp;
+		if (ttype == 0){
+			temp = new miserboy (tname, tattr, tintel, tbud, tcrit);
+		}
+		else if (ttype == 1){
+			temp = new generousboy (tname, tattr, tintel, tbud, tcrit);
+		}
+		else {
+			temp = new geekboy (tname, tattr, tintel, tbud, tcrit);
+		}
+		guy[i] = *temp;
 	}
 	*bb = i-1;
 	for (i = 0; !feof (fp2);i++){
-		fscanf(fp2,"%s %d %d %d %d %d %d", gals[i].name, &gals[i].attractiveness, &gals[i].intelligence, &gals[i].man_budget, &gals[i].criteria, &gals[i].type, &gals[i].committed);
+		fscanf(fp2,"%s %d %d %d %d %d", tname, &tattr, &tintel, &tbud, &tcrit, &ttype);
+		girls *temp;
+		if (ttype == 0){
+			temp = new choosygirl (tname, tattr, tintel, tbud, tcrit);
+		}
+		else if (ttype == 1){
+			temp = new normalgirl (tname, tattr, tintel, tbud, tcrit);
+		}
+		else {
+			temp = new desperategirl (tname, tattr, tintel, tbud, tcrit);
+		}
+		gals[i] = *temp;
 	}
 	*gg = i-1;
 	fclose (fp1);
 	fclose (fp2);
 }
-void pairing::creategrp (boys guy[], girls gals[], int bb, int gg, couple grp[]){
+int pairing::creategrp (boys guy[], girls gals[], int bb, int gg, couple grp[]){
 	int c = 0;
 	int i;
 	for (i = 0; i < gg; i++){
@@ -55,4 +79,6 @@ void pairing::creategrp (boys guy[], girls gals[], int bb, int gg, couple grp[])
 		cout << "BOY: "<< grp[i].b1.name << " " << grp[i].b1.attractiveness << " " << grp[i].b1.intelligence << " " << grp[i].b1.budget << " " << grp[i].b1.criteria << " " << grp[i].b1.type << " " << grp[i].b1.committed << endl;
 		cout << "GIRL: "<< grp[i].g1.name << " " << grp[i].g1.attractiveness << " " << grp[i].g1.intelligence << " " << grp[i].g1.man_budget << " " << grp[i].g1.criteria << " " << grp[i].g1.type << " " << grp[i].g1.committed << endl;
 	}
+	fclose (stdout);
+	return c;
 }

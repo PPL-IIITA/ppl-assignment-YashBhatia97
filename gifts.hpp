@@ -17,12 +17,5 @@ public:
 	/*! type of the gift: Essential Gift, Luxury Gift, Utility Gift*/
 	int type;
 	/*! Rating of the Luxury gift*/
-	int luxrating;
-	/*! Difficulity to obtain the Luxury Gift*/
-	int luxdifficulty;
-	/*! Value of the Utility Gift*/
-	int utilityvalue;
-	/*! Class of the Utility class*/
-	int utilityclass;
 };
 #endif

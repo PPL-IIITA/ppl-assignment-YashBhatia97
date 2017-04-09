@@ -11,6 +11,6 @@ class giftalloc/*! \brief Class giftalloc.
  */{
 public:
 	/*! Function used to allocate gifts to the couple */
-	 int allocating (int gifting[][9],couple coup[], gifts gft[]);
+	 void allocating (int gifting[][9],couple coup[], gifts gft[], int n, int g);
 };
 #endif

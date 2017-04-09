@@ -1,0 +1,12 @@
+BOY: kf 8 2 7824 1 2 1
+GIRL: fgqqns 2 4 2031 1 0 1
+BOY: tg 8 6 5607 0 2 1
+GIRL: quugtz 4 5 4945 2 2 1
+BOY: jy 9 8 8136 2 0 1
+GIRL: ctpxzu 2 2 3373 2 1 1
+BOY: ka 5 1 8612 5 1 1
+GIRL: ihvekf 8 2 7724 1 2 1
+BOY: lq 7 3 9914 0 1 1
+GIRL: arwbia 3 2 5433 1 2 1
+BOY: yt 9 4 8907 3 1 1
+GIRL: jahafb 6 3 4477 2 1 1

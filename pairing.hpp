@@ -13,6 +13,6 @@ public:
 	/*! Function to fetch the data from input files */ 
 	void allocarray (boys guy[], girls gals[], int *bb, int *gg);
 	/*! Function to form output file and form couples*/
-	void creategrp (boys guy[], girls gals[], int bb, int gg, couple grp[]);
+	int creategrp (boys guy[], girls gals[], int bb, int gg, couple grp[]);
 };
 #endif

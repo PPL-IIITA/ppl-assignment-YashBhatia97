@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['utilityclass',['utilityclass',['../classgifts.html#aa5c9311364e6677a87d9e542f1455df3',1,'gifts']]],
-  ['utilityvalue',['utilityvalue',['../classgifts.html#ad547d8cef5abe36cc11ab70d01437c97',1,'gifts']]]
+  ['utilityclass',['utilityclass',['../classutilitygift.html#ab9ad56a750331b5778812fba6c69e5b9',1,'utilitygift']]],
+  ['utilityvalue',['utilityvalue',['../classutilitygift.html#ae2d8ec28e9655507fec9efac2a91c843',1,'utilitygift']]]
 ];

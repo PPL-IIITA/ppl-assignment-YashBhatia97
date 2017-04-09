@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['sorting_2ecpp',['sorting.cpp',['../sorting_8cpp.html',1,'']]],
-  ['sorting_2ehpp',['sorting.hpp',['../sorting_8hpp.html',1,'']]]
+  ['makepair_2ecpp',['makepair.cpp',['../makepair_8cpp.html',1,'']]],
+  ['makepair_2ehpp',['makepair.hpp',['../makepair_8hpp.html',1,'']]],
+  ['matching_2ecpp',['matching.cpp',['../matching_8cpp.html',1,'']]],
+  ['matching_2ehpp',['matching.hpp',['../matching_8hpp.html',1,'']]],
+  ['miserboy_2ehpp',['miserboy.hpp',['../miserboy_8hpp.html',1,'']]]
 ];

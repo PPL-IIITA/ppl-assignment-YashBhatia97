@@ -21,17 +21,17 @@ int main(){
 		}
 		b[i][j] = '\0';
 	}
-	int attr[n], intell[n], budget[n], type[n], criteria[n], commit[n];
+	int attr[n], intell[n], budget[n], type[n], criteria[n];
 	for (i = 0; i < n; i++){
 		attr[i] = (rand() % 10) + 1;
 		intell[i] = (rand() % 10) + 1;
 		budget[i] =(rand() % 8000) + 2000;
 		type[i] = rand() % 3;
 		criteria[i] = (rand() % 7);
-		commit[i] = 0;
+		//commit[i] = 0;
 	}
 	for (i = 0; i < n; i++){
-		cout << b[i] << " " << attr[i] << " " << intell[i] << " " << budget[i] << " " << criteria[i] << " " << type[i] << " " << commit[i] << endl;
+		cout << b[i] << " " << attr[i] << " " << intell[i] << " " << budget[i] << " " << criteria[i] << " " << type[i] << " " << endl;
 	}
 	fclose (stdout);
 	return 0;

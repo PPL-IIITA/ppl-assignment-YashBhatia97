@@ -1,90 +1,78 @@
-Boy: jeq gave Gift:7 price: 309 value: 4 to Girl: pzzsx at time: Mon Feb 27 01:36:13 2017
+Boy: iqpjf gave Gift:12 price: 362 value: 7 to Girl: sdahqoi at time: Sun Apr  9 17:05:13 2017
 
-Boy: jeq gave Gift:8 price: 358 value: 8 to Girl: pzzsx at time: Mon Feb 27 01:36:13 2017
+Boy: iqpjf gave Gift:17 price: 504 value: 9 to Girl: sdahqoi at time: Sun Apr  9 17:05:13 2017
 
-Boy: jeq gave Gift:15 price: 417 value: 6 to Girl: pzzsx at time: Mon Feb 27 01:36:13 2017
+Boy: iqpjf gave Gift:11 price: 559 value: 7 to Girl: sdahqoi at time: Sun Apr  9 17:05:13 2017
 
-Boy: jeq gave Gift:17 price: 439 value: 8 to Girl: pzzsx at time: Mon Feb 27 01:36:13 2017
+Boy: iqpjf gave Gift:19 price: 599 value: 8 to Girl: sdahqoi at time: Sun Apr  9 17:05:13 2017
 
-Boy: jeq gave Gift:11 price: 563 value: 2 to Girl: pzzsx at time: Mon Feb 27 01:36:13 2017
+Boy: iqpjf gave Gift:18 price: 680 value: 3 to Girl: sdahqoi at time: Sun Apr  9 17:05:13 2017
 
-Boy: jeq gave Gift:14 price: 574 value: 8 to Girl: pzzsx at time: Mon Feb 27 01:36:13 2017
+Boy: iqpjf gave Gift:7 price: 701 value: 9 to Girl: sdahqoi at time: Sun Apr  9 17:05:13 2017
 
-Boy: jeq gave Gift:23 price: 638 value: 7 to Girl: pzzsx at time: Mon Feb 27 01:36:13 2017
+Boy: iqpjf gave Gift:15 price: 883 value: 4 to Girl: sdahqoi at time: Sun Apr  9 17:05:13 2017
 
-Boy: jeq gave Gift:3 price: 672 value: 5 to Girl: pzzsx at time: Mon Feb 27 01:36:13 2017
+Boy: iqpjf gave Gift:16 price: 902 value: 4 to Girl: sdahqoi at time: Sun Apr  9 17:05:13 2017
 
-Boy: jeq gave Gift:21 price: 683 value: 6 to Girl: pzzsx at time: Mon Feb 27 01:36:13 2017
+Boy: qvesk gave Gift:12 price: 362 value: 7 to Girl: mzbhzbo at time: Sun Apr  9 17:05:13 2017
 
-Boy: jeq gave Gift:19 price: 833 value: 6 to Girl: pzzsx at time: Mon Feb 27 01:36:13 2017
+Boy: qvesk gave Gift:17 price: 504 value: 9 to Girl: mzbhzbo at time: Sun Apr  9 17:05:13 2017
 
-Boy: jeq gave Gift:20 price: 947 value: 9 to Girl: pzzsx at time: Mon Feb 27 01:36:13 2017
+Boy: qvesk gave Gift:11 price: 559 value: 7 to Girl: mzbhzbo at time: Sun Apr  9 17:05:13 2017
 
-Boy: jeq gave Gift:13 price: 1119 value: 4 to Girl: pzzsx at time: Mon Feb 27 01:36:13 2017
+Boy: qvesk gave Gift:19 price: 599 value: 8 to Girl: mzbhzbo at time: Sun Apr  9 17:05:13 2017
 
-Boy: wrx gave Gift:7 price: 309 value: 4 to Girl: qxobm at time: Mon Feb 27 01:36:13 2017
+Boy: qvesk gave Gift:18 price: 680 value: 3 to Girl: mzbhzbo at time: Sun Apr  9 17:05:13 2017
 
-Boy: wrx gave Gift:8 price: 358 value: 8 to Girl: qxobm at time: Mon Feb 27 01:36:13 2017
+Boy: qvesk gave Gift:7 price: 701 value: 9 to Girl: mzbhzbo at time: Sun Apr  9 17:05:13 2017
 
-Boy: wrx gave Gift:15 price: 417 value: 6 to Girl: qxobm at time: Mon Feb 27 01:36:13 2017
+Boy: qvesk gave Gift:15 price: 883 value: 4 to Girl: mzbhzbo at time: Sun Apr  9 17:05:13 2017
 
-Boy: wrx gave Gift:17 price: 439 value: 8 to Girl: qxobm at time: Mon Feb 27 01:36:13 2017
+Boy: qvesk gave Gift:16 price: 902 value: 4 to Girl: mzbhzbo at time: Sun Apr  9 17:05:13 2017
 
-Boy: wrx gave Gift:11 price: 563 value: 2 to Girl: qxobm at time: Mon Feb 27 01:36:13 2017
+Boy: fwgog gave Gift:20 price: 8227 value: 5 to Girl: cpjkaji at time: Sun Apr  9 17:05:13 2017
 
-Boy: wrx gave Gift:14 price: 574 value: 8 to Girl: qxobm at time: Mon Feb 27 01:36:13 2017
+Boy: fwgog gave Gift:14 price: 991 value: 3 to Girl: cpjkaji at time: Sun Apr  9 17:05:13 2017
 
-Boy: wrx gave Gift:23 price: 638 value: 7 to Girl: qxobm at time: Mon Feb 27 01:36:13 2017
+Boy: pujqc gave Gift:12 price: 362 value: 7 to Girl: imwmvyg at time: Sun Apr  9 17:05:13 2017
 
-Boy: npf gave Gift:7 price: 309 value: 4 to Girl: lotgs at time: Mon Feb 27 01:36:13 2017
+Boy: pujqc gave Gift:17 price: 504 value: 9 to Girl: imwmvyg at time: Sun Apr  9 17:05:13 2017
 
-Boy: npf gave Gift:8 price: 358 value: 8 to Girl: lotgs at time: Mon Feb 27 01:36:13 2017
+Boy: pujqc gave Gift:11 price: 559 value: 7 to Girl: imwmvyg at time: Sun Apr  9 17:05:13 2017
 
-Boy: npf gave Gift:15 price: 417 value: 6 to Girl: lotgs at time: Mon Feb 27 01:36:13 2017
+Boy: pujqc gave Gift:19 price: 599 value: 8 to Girl: imwmvyg at time: Sun Apr  9 17:05:13 2017
 
-Boy: npf gave Gift:17 price: 439 value: 8 to Girl: lotgs at time: Mon Feb 27 01:36:13 2017
+Boy: pujqc gave Gift:18 price: 680 value: 3 to Girl: imwmvyg at time: Sun Apr  9 17:05:13 2017
 
-Boy: npf gave Gift:11 price: 563 value: 2 to Girl: lotgs at time: Mon Feb 27 01:36:13 2017
+Boy: pujqc gave Gift:7 price: 701 value: 9 to Girl: imwmvyg at time: Sun Apr  9 17:05:13 2017
 
-Boy: npf gave Gift:14 price: 574 value: 8 to Girl: lotgs at time: Mon Feb 27 01:36:13 2017
+Boy: pujqc gave Gift:15 price: 883 value: 4 to Girl: imwmvyg at time: Sun Apr  9 17:05:13 2017
 
-Boy: npf gave Gift:23 price: 638 value: 7 to Girl: lotgs at time: Mon Feb 27 01:36:13 2017
+Boy: pujqc gave Gift:16 price: 902 value: 4 to Girl: imwmvyg at time: Sun Apr  9 17:05:13 2017
 
-Boy: npf gave Gift:3 price: 672 value: 5 to Girl: lotgs at time: Mon Feb 27 01:36:13 2017
+Boy: pujqc gave Gift:6 price: 926 value: 2 to Girl: imwmvyg at time: Sun Apr  9 17:05:13 2017
 
-Boy: npf gave Gift:21 price: 683 value: 6 to Girl: lotgs at time: Mon Feb 27 01:36:13 2017
+Boy: pujqc gave Gift:14 price: 991 value: 3 to Girl: imwmvyg at time: Sun Apr  9 17:05:13 2017
 
-Boy: npf gave Gift:19 price: 833 value: 6 to Girl: lotgs at time: Mon Feb 27 01:36:13 2017
+Boy: pujqc gave Gift:8 price: 1059 value: 6 to Girl: imwmvyg at time: Sun Apr  9 17:05:13 2017
 
-Boy: npf gave Gift:20 price: 947 value: 9 to Girl: lotgs at time: Mon Feb 27 01:36:13 2017
+Boy: oyajj gave Gift:12 price: 362 value: 7 to Girl: rdmjios at time: Sun Apr  9 17:05:13 2017
 
-Boy: npf gave Gift:13 price: 1119 value: 4 to Girl: lotgs at time: Mon Feb 27 01:36:13 2017
+Boy: oyajj gave Gift:17 price: 504 value: 9 to Girl: rdmjios at time: Sun Apr  9 17:05:13 2017
 
-Boy: npf gave Gift:4 price: 1227 value: 6 to Girl: lotgs at time: Mon Feb 27 01:36:13 2017
+Boy: oyajj gave Gift:11 price: 559 value: 7 to Girl: rdmjios at time: Sun Apr  9 17:05:13 2017
 
-Boy: iup gave Gift:7 price: 309 value: 4 to Girl: cfldl at time: Mon Feb 27 01:36:13 2017
+Boy: oyajj gave Gift:19 price: 599 value: 8 to Girl: rdmjios at time: Sun Apr  9 17:05:13 2017
 
-Boy: iup gave Gift:8 price: 358 value: 8 to Girl: cfldl at time: Mon Feb 27 01:36:13 2017
+Boy: oyajj gave Gift:18 price: 680 value: 3 to Girl: rdmjios at time: Sun Apr  9 17:05:13 2017
 
-Boy: iup gave Gift:15 price: 417 value: 6 to Girl: cfldl at time: Mon Feb 27 01:36:13 2017
+Boy: oyajj gave Gift:7 price: 701 value: 9 to Girl: rdmjios at time: Sun Apr  9 17:05:13 2017
 
-Boy: iup gave Gift:17 price: 439 value: 8 to Girl: cfldl at time: Mon Feb 27 01:36:13 2017
+Boy: oyajj gave Gift:15 price: 883 value: 4 to Girl: rdmjios at time: Sun Apr  9 17:05:13 2017
 
-Boy: iup gave Gift:11 price: 563 value: 2 to Girl: cfldl at time: Mon Feb 27 01:36:13 2017
+Boy: oyajj gave Gift:16 price: 902 value: 4 to Girl: rdmjios at time: Sun Apr  9 17:05:13 2017
 
-Boy: iup gave Gift:14 price: 574 value: 8 to Girl: cfldl at time: Mon Feb 27 01:36:13 2017
+Boy: oyajj gave Gift:6 price: 926 value: 2 to Girl: rdmjios at time: Sun Apr  9 17:05:13 2017
 
-Boy: iup gave Gift:23 price: 638 value: 7 to Girl: cfldl at time: Mon Feb 27 01:36:13 2017
+Boy: bzuri gave Gift:24 price: 5366 value: 6 to Girl: ycdmegt at time: Sun Apr  9 17:05:13 2017
 
-Boy: iup gave Gift:3 price: 672 value: 5 to Girl: cfldl at time: Mon Feb 27 01:36:13 2017
-
-BOY: jeq Girl: pzzsx Essential Gift: 12 Luxury Gift: 0 Utility Gift:0
-BOY: wrx Girl: qxobm Essential Gift: 7 Luxury Gift: 0 Utility Gift:0
-BOY: npf Girl: lotgs Essential Gift: 13 Luxury Gift: 0 Utility Gift:0
-BOY: iup Girl: cfldl Essential Gift: 8 Luxury Gift: 0 Utility Gift:0
-BOY: wrx Girl: qxobm happiness: 6615
-BOY: npf Girl: lotgs happiness: 6094.14
-BOY: iup Girl: cfldl happiness: 5915
-BOY: wrx Girl: qxobm compatibility: 3720
-BOY: iup Girl: cfldl compatibility: 1936
-BOY: jeq Girl: pzzsx compatibility: 883

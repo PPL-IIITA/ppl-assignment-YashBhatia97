@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['name',['name',['../classboys.html#af011da86a771bf96b8ca952405aed503',1,'boys::name()'],['../classgifts.html#a0052d82101c951a3cdc2ae017dfe9c20',1,'gifts::name()'],['../classgirls.html#aed0a3d0685c3b037cd377a68638983c3',1,'girls::name()']]]
+  ['intelligence',['intelligence',['../classboys.html#a9608d469aa557b6d220cc50cc6ec38f0',1,'boys::intelligence()'],['../classgirls.html#a806ed2b9e5e58f2eeacdd03705579424',1,'girls::intelligence()']]]
 ];

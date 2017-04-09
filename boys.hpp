@@ -1,6 +1,7 @@
 #ifndef BOYS_HPP
 #define BOYS_HPP
 #include "girls.hpp"
+#include <string.h>
 class boys/*! \brief Class boys.
  *        
  *

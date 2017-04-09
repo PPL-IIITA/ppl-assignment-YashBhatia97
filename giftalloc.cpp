@@ -2,19 +2,36 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "gifts.hpp"
+#include "essentialgift.hpp"
+#include "luxurygift.hpp"
+#include "utilitygift.hpp"
 #include "couple.hpp"
 #include "giftalloc.hpp"
 #include <ctime>
 using namespace std;
-int giftalloc::allocating (int gifting[][9],couple coup[], gifts gft[]){
+void giftalloc::allocating (int gifting[][9],couple coup[], gifts gft[], int n, int g){
 	int i, j;
-	freopen ("gifts.txt","r", stdin);
+	/*freopen ("gifts.txt","r", stdin);
 	int g;
 	cin >> g;
 	for (i = 1; i <= g; i++){
-		cin >> gft[i].name >> gft[i].price >> gft[i].value >> gft[i].type >> gft[i].luxrating >> gft[i].luxdifficulty >> gft[i].utilityvalue >> gft[i].utilityclass;
+		int tname, tprice, tvalue, ttype, tlrate, tldiff, tuval, tuclass;
+		cin >> tname >> tprice >> tvalue >> ttype >> tlrate >> tldiff >> tuval >> tuclass;
+		gifts *temp;
+		if (ttype == 0){
+			temp = new essentialgift (tname, tprice, tvalue);
+		}
+		else if (ttype == 1){
+			temp = new luxurygift (tname, tprice, tvalue, tlrate, tldiff);
+		}
+		else {
+			temp = new utilitygift (tname, tprice, tvalue, tuval, tuclass);
+		}
+		gft[i] = *temp;
+		//cin >> gft[i].name >> gft[i].price >> gft[i].value >> gft[i].type >> gft[i].luxrating >> gft[i].luxdifficulty >> gft[i].utilityvalue >> gft[i].utilityclass;
 	}
 	fclose (stdin);
+	
 	int n;
 	 	//cout <<"hi" << endl;
 	freopen ("couple.txt", "r", stdin);
@@ -25,15 +42,15 @@ int giftalloc::allocating (int gifting[][9],couple coup[], gifts gft[]){
 		cin >> tmp >> coup[i].g1.name >> coup[i].g1.attractiveness >> coup[i].g1.intelligence >> coup[i].g1.man_budget >> coup[i].g1.criteria >> coup[i].g1.type >>coup[i].g1.committed; 
 	} 	
 	fclose (stdin);
-	 	//int gifting[n+1][3];
+	*/ 	//int gifting[n+1][3];
 	for (i = 0; i <= n; i++){
 		for (j = 0; j < 9; j++){
 			gifting[i][j] = 0;
 		}
 	}
 	 	//cout << "hello" << endl;
-	freopen ("q2output.txt","w",stdout);
-	for(i = 1; i <= n; i++){
+	freopen ("q3output.txt","w",stdout);
+	for(i = 0; i < n; i++){
 		int sum = 0;
 		if(coup[i].b1.type == 0){
 			int limit = coup[i].g1.man_budget + (coup[i].b1.budget - coup[i].g1.man_budget)/4;
@@ -120,5 +137,5 @@ int giftalloc::allocating (int gifting[][9],couple coup[], gifts gft[]){
 		}
 	}
 	fclose (stdout);
-	return n;
+	//return n;
 }

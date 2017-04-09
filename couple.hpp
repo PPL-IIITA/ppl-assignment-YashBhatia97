@@ -1,6 +1,12 @@
 #ifndef COUPLE_HPP
 #define COUPLE_HPP
 #include "boys.hpp"
+#include "miserboy.hpp"
+#include "generousboy.hpp"
+#include "geekboy.hpp"
+#include "normalgirl.hpp"
+#include "choosygirl.hpp"
+#include "desperategirl.hpp"
 
 class couple/*! \brief Class couple.
  *        

@@ -8,11 +8,11 @@ using namespace std;
 
 int main(){
 	int n, k;
-	n = (rand() % 7) + 4;
+	srand (time(NULL));
+	n = (rand() % 6) + 4;
 	k = (rand() % 5) + 4;
 	freopen ("gngirls.txt", "w",stdout);
 	char g[n][k+1];
-	srand (time(NULL));
 	int i, j;
 	for(i = 0; i < n; i++){
 		for(j = 0; j < k; j++){
@@ -20,17 +20,17 @@ int main(){
 		}
 		g[i][j] = '\0';
 	}
-	int attr[n], intell[n], man_budget[n], type[n], criteria[n], commit[n];
+	int attr[n], intell[n], man_budget[n], type[n], criteria[n];
 	for (i = 0; i < n; i++){
 		attr[i] = (rand() % 10) + 1;
 		intell[i] = (rand() % 10) + 1;
 		man_budget[i] =(rand() % 8000) + 1000;
 		type[i] = rand() % 3;
 		criteria[i] = rand() % 3;
-		commit[i] = 0;
+		//commit[i] = 0;
 	}
 	for (i = 0; i < n; i++){
-		cout << g[i] << " " << attr[i] << " " << intell[i] << " " << man_budget[i] << " " << criteria[i] << " " << type[i] << " " << commit[i] << endl;
+		cout << g[i] << " " << attr[i] << " " << intell[i] << " " << man_budget[i] << " " << criteria[i] << " " << type[i] << " " << endl;
 	}
 	fclose (stdout);
 	return 0;

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['value',['value',['../classgifts.html#a5cec737320153911ac8c721907ace3e2',1,'gifts']]]
+  ['readme_2emd',['readme.md',['../readme_8md.html',1,'']]],
+  ['remaking',['remaking',['../classmakepair.html#ae7fbfde4c3356c8317aad80bd0bf742d',1,'makepair']]]
 ];
