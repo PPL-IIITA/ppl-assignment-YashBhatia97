@@ -58,10 +58,10 @@ g++ gengirls.cpp
 ### To View Couples:
 >Open output.txt
 
-## Documenation of the project can be found in -
+### Documenation of the project can be found in -
 
 >doc/html/index.html
-## System Information
+### System Information
 ```
 >Operating System - Ubuntu 16.04
 >Documentaion - Doxygen
