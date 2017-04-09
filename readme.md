@@ -1,5 +1,6 @@
 # PPL Assignment-YashBhatia97
 ## CREATED BY-Yash Bhatia (IIT2015105) SECTION - 'B'
+<img src="https://img.shields.io/badge/language-C++-brightgreen.svg"/>
 
 ## How to run
 
